@@ -7,11 +7,16 @@
         <link rel="icon" href="fav.png" type="image/png">
         <meta name="description" content="cafe-restaurant">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="stylesheet" href="https://blackrockdigital.github.io/startbootstrap-clean-blog/css/clean-blog.min.css">
+        <link rel="stylesheet" href="main.css">
         <link href="https://blackrockdigital.github.io/startbootstrap-clean-blog/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <link href="https://blackrockdigital.github.io/startbootstrap-clean-blog/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://blackrockdigital.github.io/startbootstrap-clean-blog/vendor/font-awesome/css/font-awesome.min.css" type="text/css" rel="stylesheet">
     </head>
     <body>
+        <!-- Index Template Start -->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div class="container">
                 <a class="navbar-brand" href="#">Jenny's</a>
@@ -42,9 +47,144 @@
                 </div>
             </div>
         </header>
+        <!-- Index templete end -->
+        
+        <!-- main content start -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <div class="post-preview">
+                        <a href="post.html">
+                            <h2 class="post-title">
+                                Brewing coffee is an art! which each one of you should know of it. 
+                            </h2>
+                            <h3 class="post-subtitle">
+                                May you need lil rich caffine on your first sip!
+                            </h3>
+                        </a>
+                        <p class="post-meta">
+                            Post by 
+                            <a href="postby.html">coffeelovers.com</a>
+                            On August 23rd edition. 
+                        </p>
+                    </div>
+                    <hr>
+                    <div class="post-preview">
+                        <a href="post.html">
+                            <h2 class="post-title">
+                                Brewing coffee is an art! which each one of you should know of it. 
+                            </h2>
+                            <h3 class="post-subtitle">
+                                May you need lil rich caffine on your first sip!
+                            </h3>
+                        </a>
+                        <p class="post-meta">
+                            Post by 
+                            <a href="postby.html">coffeelovers.com</a>
+                            On August 23rd edition. 
+                        </p>
+                    </div>
+                    <hr>
+                    <div class="post-preview">
+                        <a href="post.html">
+                            <h2 class="post-title">
+                                Brewing coffee is an art! which each one of you should know of it. 
+                            </h2>
+                            <h3 class="post-subtitle">
+                                May you need lil rich caffine on your first sip!
+                            </h3>
+                        </a>
+                        <p class="post-meta">
+                            Post by 
+                            <a href="postby.html">coffeelovers.com</a>
+                            On August 23rd edition. 
+                        </p>
+                    </div>
+                    <hr>
+                    <div class="post-preview">
+                        <a href="post.html">
+                            <h2 class="post-title">
+                                Brewing coffee is an art! which each one of you should know of it. 
+                            </h2>
+                            <h3 class="post-subtitle">
+                                May you need lil rich caffine on your first sip!
+                            </h3>
+                        </a>
+                        <p class="post-meta">
+                            Post by 
+                            <a href="postby.html">coffeelovers.com</a>
+                            On August 23rd edition. 
+                        </p>
+                    </div>
+                    <hr>
+                    <!-- Pages for next -->
+                    <div class="clearfix">
+                        <a class="btn btn-primary float-right" href="next_post.html">Older Posts -></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <!--main content end -->
+        
+        <!--footer start -->
+        <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <ul class="list-inline text-center">
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </footer>
         <!--website scripts -->
         <script src="https://blackrockdigital.github.io/startbootstrap-clean-blog/vendor/jquery/jquery.min.js"></script>
         <script src="https://blackrockdigital.github.io/startbootstrap-clean-blog/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="https://blackrockdigital.github.io/startbootstrap-clean-blog/js/clean-blog.min.js"></script>
+        <script>
+            ! function(i) {
+                "use strict";
+                i("body").on("input propertychange", ".floating-label-form-group", function(o) {
+                    i(this).toggleClass("floating-label-form-group-with-value", !! i(o.target).val())
+                }).on("focus", ".floating-label-form-group", function() {
+                    i(this).addClass("floating-label-form-group-with-focus")
+                }).on("blur", ".floating-label-form-group", function() {
+                    i(this).removeClass("floating-label-form-group-with-focus")
+                });
+                if (i(window).width() > 992) {
+                    var o = i("#mainNav").height();
+                    i(window).on("scroll", {
+                        previousTop: 0
+                    }, function() {
+                        var s = i(window).scrollTop();
+                        s < this.previousTop ? s > 0 && i("#mainNav").hasClass("is-fixed") ? i("#mainNav").addClass("is-visible") : i("#mainNav").removeClass("is-visible is-fixed") : s > this.previousTop && (i("#mainNav").removeClass("is-visible"), s > o && !i("#mainNav").hasClass("is-fixed") && i("#mainNav").addClass("is-fixed")), this.previousTop = s
+                    })
+                }
+            }(jQuery);
+        </script>
     </body>
 </html>
